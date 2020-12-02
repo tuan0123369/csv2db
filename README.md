@@ -1,7 +1,7 @@
 # csv2db
 Create a table country in postgres
 To run this file, go to the location of cvs2bs.exe, on cmd type csv2db.exe args
-For example
+  For example
 
 D:/cvs2bd.exe E:/country.csv localhost 1234 nameDatabase 5678 admin adminPassword
 
