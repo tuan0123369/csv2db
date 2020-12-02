@@ -70,6 +70,7 @@ func insertValue(db *sql.DB, record [][]string) {
 	}
 }
 
+//Trợ giúp
 func help() {
 	fmt.Println("To run this file, go to the location of cvs2bs.exe, on cmd type csv2db.exe args\n")
 	fmt.Println("For example\n")
@@ -83,6 +84,7 @@ func help() {
 	os.Exit(0)
 }
 
+//Kiểm tra các tham số nhập vào
 func checkArgs() {
 	if len(os.Args) <= 1 {
 		fmt.Printf("/? for help")
